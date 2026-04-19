@@ -3,6 +3,8 @@
 This is a simple **multithreaded TCP server** written in **C** that handles **HTTP GET requests**.  
 It serves static files from the `www/` directory and supports **basic error handling**.
 
+It is a multithreaded server that I built. Connecting through netcat or localhost a user can use GET to request different kinds of files and the server will respond with a header and the file content. The headers include status codes (ex 200, 404, 400...), content length, and content type.
+
 ---
 
 ## **Features**
